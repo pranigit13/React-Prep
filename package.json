@@ -2,9 +2,8 @@
   "name": "react-namaste-dev",
   "version": "1.0.0",
   "description": "React-practice",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,13 @@
   "homepage": "https://github.com/pranigit13/React-Prep#readme",
   "devDependencies": {
     "parcel": "^2.16.4"
-  }
+  },
+  "dependencies": {
+    "react": "^19.2.4"
+  },
+  
+  "browserslist": [
+    "last 10 Chrome versions", 
+    "last 5 Firefox versions"
+  ]
 }
