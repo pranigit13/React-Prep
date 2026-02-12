@@ -3,7 +3,6 @@ node_modules
 scripts/flow/*/.flowconfig
 .flowconfig
 *~
-dist
 *.pyc
 .grunt
 _SpecRunner.html
@@ -27,7 +26,9 @@ chrome-user-data
 /tmp
 /.worktrees
 .claude/*.local.*
-.parcel-cache/
+# Parcel related files
+.parcel-cache
+dist/
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
 packages/react-devtools-extensions/chrome/*.crx
