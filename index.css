@@ -1,0 +1,39 @@
+.app header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:  1px solid black;
+}
+
+.app .logo{
+    display: inline-block;
+    width: 50px;
+    margin: 0px 10px;
+}
+.app ul {
+      display: flex;
+      list-style: none;
+}
+.app ul li {
+    width: 100px;
+    font-weight: 500;
+    padding: 10px;
+}
+.app main .restaurant-list{
+    display: flex;
+    ;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+}
+.app main .restaurant-list .restaurant-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+
+.app main .restaurant-list .restaurant-card img{
+   width: 100px;
+
+}

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "React-practice",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,11 +21,11 @@
     "parcel": "^2.16.4"
   },
   "dependencies": {
-    "react": "^19.2.4"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
-  
   "browserslist": [
-    "last 10 Chrome versions", 
+    "last 10 Chrome versions",
     "last 5 Firefox versions"
   ]
 }
